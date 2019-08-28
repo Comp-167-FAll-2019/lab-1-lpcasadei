@@ -47,7 +47,7 @@ public class ContactsApp extends Application {
             @Override
             public void handle(ActionEvent e) {
                 Contact selectedContact = contacts.get(contactListView.getSelectionModel().getSelectedIndex());
-                
+               
                 Alert alert = new Alert(AlertType.INFORMATION);
                 alert.setTitle(selectedContact.getFirstName() + "'s Contact Details");
                 alert.setHeaderText(null);

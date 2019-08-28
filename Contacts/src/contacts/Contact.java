@@ -20,9 +20,16 @@ public class Contact {
         this.lastName = lastName;
         this.phoneNumber = phoneNumber;
         this.emailAddress = emailAddress;
-    }
     
+    }
+    public String getFirstName() {
+           return firstName;
+       }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
     public String toString(){
-        return firstName + " " + lastName  " " + phoneNumber + " " + emailAddress;
+        return firstName + " " + lastName + " " + phoneNumber + " " + emailAddress;
     }
 }
